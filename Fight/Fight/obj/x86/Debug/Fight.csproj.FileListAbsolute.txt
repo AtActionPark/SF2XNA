@@ -1,0 +1,21 @@
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\bin\x86\Debug\Fight.exe
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\bin\x86\Debug\Fight.pdb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\obj\x86\Debug\Fight.exe
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\obj\x86\Debug\Fight.pdb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\bin\x86\Debug\Content\Stage\Stage1.xnb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\bin\x86\Debug\Content\Misc\WhitePixel.xnb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\bin\x86\Debug\Content\Misc\FontSheet.xnb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\bin\x86\Debug\Content\SpriteSheet\Ryu.xnb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\bin\x86\Debug\Content\SpriteSheet\ryu2.xnb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\bin\x86\Debug\Content\Stage\animatedStage.xnb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\bin\x86\Debug\Content\Misc\VSLogo.xnb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\bin\x86\Debug\Content\Font\SpriteFont1.xnb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\bin\x86\Debug\Content\Stage\stageAnim1.xnb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\bin\x86\Debug\Content\Stage\stageAnim2.xnb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\bin\x86\Debug\Content\Stage\stageAnim3.xnb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\bin\x86\Debug\Content\Stage\stageBase.xnb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\Fight\Fight\bin\x86\Debug\Content\BigTiles.xnb
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\Fight\Fight\Fight\obj\x86\Debug\Fight.exe
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\Fight\Fight\Fight\obj\x86\Debug\Fight.pdb

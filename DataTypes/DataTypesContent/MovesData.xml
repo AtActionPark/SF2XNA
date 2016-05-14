@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="DataTypes.BaseMoves[]">
+    <Item>
+      
+      <AttackType>AttackType.StandingJab</AttackType>
+      <AttackZone>AttackZone.HighLow</AttackZone>
+      
+      <hitStun>15</hitStun>
+      <blockStun>5</blockStun>
+      
+      <pushBack>new Vector2(5, 0)</pushBack>
+      <knockDown>false</knockDown>
+      
+      <damage>3</damage>
+      <chipDamage>0</chipDamage>
+
+      <startUp>3</startUp>
+      <active>3</active>
+      <recover>6</recover>
+      <onLandingrecover>0</onLandingrecover>
+    </Item>
+   
+  </Asset>
+</XnaContent>

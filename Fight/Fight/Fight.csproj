@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{98C8F1B9-0225-4EAC-B8A2-A945FF461689}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fight</RootNamespace>
+    <AssemblyName>Fight</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>a83f360f-a07c-41b7-af0f-7f269c65a7b7</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>Game\Game.ico</ApplicationIcon>
+    <Thumbnail>Game\GameThumbnail.png</Thumbnail>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animations\AnimationManager.cs" />
+    <Compile Include="Animations\Animation.cs" />
+    <Compile Include="Animations\ProjectileAnimationManager.cs" />
+    <Compile Include="Animations\Fierce\CloseStandingFierceAnim.cs" />
+    <Compile Include="Animations\Fierce\NeutralJumpingFierceAnim.cs" />
+    <Compile Include="Animations\Forward\CloseStandingForwardAnim.cs" />
+    <Compile Include="Animations\Forward\NeutralJumpingForwardAnim.cs" />
+    <Compile Include="Animations\Hit-Recover-block\StandUpAnim.cs" />
+    <Compile Include="Animations\Hit-Recover-block\FacecHitAnim.cs" />
+    <Compile Include="Animations\Jab\CloseStandingJabAnim.cs" />
+    <Compile Include="Animations\Jab\NeutralJumpingJabAnim.cs" />
+    <Compile Include="Animations\Roundhouse\NeutralJumpingRoundhouseAnim.cs" />
+    <Compile Include="Animations\Roundhouse\CloseStandingRoundhouseAnim.cs" />
+    <Compile Include="Animations\Roundhouse\CrouchingRoundhouseAnim.cs" />
+    <Compile Include="Animations\Roundhouse\JumpingRoundhouseAnim.cs" />
+    <Compile Include="Animations\Roundhouse\StandingRoundhouseAnim.cs" />
+    <Compile Include="Animations\Forward\CrouchingForwardAnim.cs" />
+    <Compile Include="Animations\Forward\JumpingForwardAnim.cs" />
+    <Compile Include="Animations\Forward\StandingForwardAnim.cs" />
+    <Compile Include="Animations\Fierce\CrouchingFierceAnim.cs" />
+    <Compile Include="Animations\Fierce\JumpingFierceAnim.cs" />
+    <Compile Include="Animations\Fierce\StandingFierceAnim.cs" />
+    <Compile Include="Animations\Short\NeutralJumpingShortAnim.cs" />
+    <Compile Include="Animations\Short\CloseStandingShortAnim.cs" />
+    <Compile Include="Animations\Special\Hadoken\MovingHadoAnim.cs" />
+    <Compile Include="Animations\Special\Hadoken\DyingHadoAnim.cs" />
+    <Compile Include="Animations\Special\Hadoken\LightHadoAnim.cs" />
+    <Compile Include="Animations\Special\Shoryu\LightShoryuAnim.cs" />
+    <Compile Include="Animations\Special\Shoryu\MediumShoryuAnim.cs" />
+    <Compile Include="Animations\Special\Shoryu\HardShoryuAnim.cs" />
+    <Compile Include="Animations\Special\Tatsu\HardTatsuAnim.cs" />
+    <Compile Include="Animations\Special\Tatsu\MediumTatsuAnim.cs" />
+    <Compile Include="Animations\Special\Tatsu\LightTatsuAnim.cs" />
+    <Compile Include="Animations\Strong\CloseStandingStrongAnim.cs" />
+    <Compile Include="Animations\Strong\NeutralJumpingStrongAnim.cs" />
+    <Compile Include="Animations\Strong\CrouchingStrongAnim.cs" />
+    <Compile Include="Animations\Strong\JumpingStrongAnim.cs" />
+    <Compile Include="Animations\Strong\StandingStrongAnim.cs" />
+    <Compile Include="Animations\Hit-Recover-block\AirHitAnim.cs" />
+    <Compile Include="Animations\Short\JumpingShortAnim.cs" />
+    <Compile Include="Animations\Jab\JumpingJabAnim.cs" />
+    <Compile Include="Animations\Short\CrouchingShortAnim.cs" />
+    <Compile Include="Animations\Jab\CrouchingJabAnim.cs" />
+    <Compile Include="Animations\Hit-Recover-block\RecoverAnim.cs" />
+    <Compile Include="Animations\Move\CrouchAnim.cs" />
+    <Compile Include="Animations\Throw\GetThrownAnim.cs" />
+    <Compile Include="Animations\Throw\ForwardThrowAnim.cs" />
+    <Compile Include="Animations\Throw\StartThrowAnim.cs" />
+    <Compile Include="Controls - Input\Controls.cs" />
+    <Compile Include="Fighter\IA.cs" />
+    <Compile Include="Animations\Hit-Recover-block\LowBlockAnim.cs" />
+    <Compile Include="Animations\Hit-Recover-block\HighBlockAnim.cs" />
+    <Compile Include="Animations\Hit-Recover-block\KnockedDownAnim.cs" />
+    <Compile Include="Animations\Move\ForwardJumpAnim.cs" />
+    <Compile Include="Animations\Hit-Recover-block\HitAnim.cs" />
+    <Compile Include="Animations\Move\JumpAnim.cs" />
+    <Compile Include="Animations\Short\StandingShortAnim.cs" />
+    <Compile Include="Animations\Move\WalkAnim.cs" />
+    <Compile Include="Animations\Jab\StandingJabAnim.cs" />
+    <Compile Include="Animations\Move\IdleAnim.cs" />
+    <Compile Include="Misc\Art.cs" />
+    <Compile Include="MoveData\AttackState.cs" />
+    <Compile Include="Controls - Input\Buffer.cs" />
+    <Compile Include="Fighter\Fighter.cs" />
+    <Compile Include="FightersManager.cs" />
+    <Compile Include="Controls - Input\Input.cs" />
+    <Compile Include="Message\MessageManager.cs" />
+    <Compile Include="MoveData\ProjAttackState.cs" />
+    <Compile Include="MoveData\Fierce\CloseStandingFierce.cs" />
+    <Compile Include="MoveData\Fierce\NeutralJumpingFierce.cs" />
+    <Compile Include="MoveData\Forward\CloseStandingForward.cs" />
+    <Compile Include="MoveData\Forward\NeutralJumpingForward.cs" />
+    <Compile Include="MoveData\Jab\CloseStandingJab.cs" />
+    <Compile Include="MoveData\Jab\NeutralJumpingJab.cs" />
+    <Compile Include="MoveData\Roundouse\CloseStandingRoundhouse.cs" />
+    <Compile Include="MoveData\Roundouse\NeutralJumpingRoundhouse.cs" />
+    <Compile Include="MoveData\Roundouse\CrouchingRoundhouse.cs" />
+    <Compile Include="MoveData\Roundouse\JumpingRoundhouse.cs" />
+    <Compile Include="MoveData\Roundouse\StandingRoundhouse.cs" />
+    <Compile Include="MoveData\Forward\CrouchingForward.cs" />
+    <Compile Include="MoveData\Forward\JumpingForward.cs" />
+    <Compile Include="MoveData\Short\CloseStandingShort.cs" />
+    <Compile Include="MoveData\Short\NeutraJumpingShort.cs" />
+    <Compile Include="MoveData\Special\Tatsu\HardTatsu.cs" />
+    <Compile Include="MoveData\Special\Tatsu\LightTatsu.cs" />
+    <Compile Include="MoveData\Special\Tatsu\MediumTatsu.cs" />
+    <Compile Include="MoveData\Special\Hadoken\HardHado.cs" />
+    <Compile Include="MoveData\Special\Hadoken\MediumHado.cs" />
+    <Compile Include="MoveData\Special\Hadoken\LightHado.cs" />
+    <Compile Include="MoveData\Special\Shoryu\HardShoryu.cs" />
+    <Compile Include="MoveData\Special\Shoryu\MediumShoryu.cs" />
+    <Compile Include="MoveData\Special\Shoryu\LightShoryu.cs" />
+    <Compile Include="MoveData\Forward\StandingForwardt.cs" />
+    <Compile Include="MoveData\Fierce\CrouchingFierce.cs" />
+    <Compile Include="MoveData\Fierce\JumpingFierce.cs" />
+    <Compile Include="MoveData\Fierce\StandingFierce.cs" />
+    <Compile Include="MoveData\Strong\CloseStandingStrong.cs" />
+    <Compile Include="MoveData\Strong\NeutralJumpingStrong.cs" />
+    <Compile Include="MoveData\Strong\CrouchingStrong.cs" />
+    <Compile Include="MoveData\Strong\JumpingStrong.cs" />
+    <Compile Include="MoveData\Strong\StandingStrong.cs" />
+    <Compile Include="MoveData\Short\JumpingShort.cs" />
+    <Compile Include="MoveData\Jab\JumpingJab.cs" />
+    <Compile Include="MoveData\Short\CrouchingShort.cs" />
+    <Compile Include="MoveData\Jab\CrouchingJab.cs" />
+    <Compile Include="MoveData\Short\StandingShort.cs" />
+    <Compile Include="MoveData\MoveBase.cs" />
+    <Compile Include="MoveData\Jab\StandingJab.cs" />
+    <Compile Include="MoveData\MoveList.cs" />
+    <Compile Include="Message\Message.cs" />
+    <Compile Include="Projectile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Game\Program.cs" />
+    <Compile Include="Game\Game1.cs" />
+    <Compile Include="Misc\RectangleExtensions.cs" />
+    <Compile Include="Misc\Stage.cs" />
+    <Compile Include="Misc\Static.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game\Game.ico" />
+    <Content Include="Game\GameThumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FightContent\FightContent.contentproj">
+      <Project>{E72F590D-139A-466E-8882-BE860EC0E54A}</Project>
+      <Name>FightContent %28Content%29</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

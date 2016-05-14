@@ -1,0 +1,6 @@
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\DataTypes\DataTypes\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\DataTypes\DataTypes\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\DataTypes\DataTypes\bin\x86\Debug\DataTypes.exe
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\DataTypes\DataTypes\bin\x86\Debug\DataTypes.pdb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\DataTypes\DataTypes\obj\x86\Debug\DataTypes.exe
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\DataTypes\DataTypes\obj\x86\Debug\DataTypes.pdb

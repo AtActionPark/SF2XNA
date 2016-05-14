@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fight", "Fight\Fight\Fight.csproj", "{98C8F1B9-0225-4EAC-B8A2-A945FF461689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FightContent", "Fight\FightContent\FightContent.contentproj", "{E72F590D-139A-466E-8882-BE860EC0E54A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HitBoxCreator", "HitBoxCreator\HitBoxCreator\HitBoxCreator.csproj", "{AF7D7B05-6846-4EDF-A483-2D30E4C84315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HitBoxCreatorContent", "HitBoxCreator\HitBoxCreatorContent\HitBoxCreatorContent.contentproj", "{A6B95326-1FE4-45C3-87D4-21D7D1DB6F46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98C8F1B9-0225-4EAC-B8A2-A945FF461689}.Debug|x86.ActiveCfg = Debug|x86
+		{98C8F1B9-0225-4EAC-B8A2-A945FF461689}.Debug|x86.Build.0 = Debug|x86
+		{98C8F1B9-0225-4EAC-B8A2-A945FF461689}.Release|x86.ActiveCfg = Release|x86
+		{98C8F1B9-0225-4EAC-B8A2-A945FF461689}.Release|x86.Build.0 = Release|x86
+		{E72F590D-139A-466E-8882-BE860EC0E54A}.Debug|x86.ActiveCfg = Debug|x86
+		{E72F590D-139A-466E-8882-BE860EC0E54A}.Release|x86.ActiveCfg = Release|x86
+		{AF7D7B05-6846-4EDF-A483-2D30E4C84315}.Debug|x86.ActiveCfg = Debug|x86
+		{AF7D7B05-6846-4EDF-A483-2D30E4C84315}.Debug|x86.Build.0 = Debug|x86
+		{AF7D7B05-6846-4EDF-A483-2D30E4C84315}.Release|x86.ActiveCfg = Release|x86
+		{AF7D7B05-6846-4EDF-A483-2D30E4C84315}.Release|x86.Build.0 = Release|x86
+		{A6B95326-1FE4-45C3-87D4-21D7D1DB6F46}.Debug|x86.ActiveCfg = Debug|x86
+		{A6B95326-1FE4-45C3-87D4-21D7D1DB6F46}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

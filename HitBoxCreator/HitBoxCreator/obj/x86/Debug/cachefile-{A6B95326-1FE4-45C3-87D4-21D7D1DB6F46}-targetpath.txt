@@ -1,0 +1,3 @@
+Content\ryu2.xnb
+Content\WhitePixel.xnb
+Content\Font1.xnb

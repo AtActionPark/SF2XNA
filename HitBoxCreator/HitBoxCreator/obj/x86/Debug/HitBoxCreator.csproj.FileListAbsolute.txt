@@ -1,0 +1,17 @@
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\bin\x86\Debug\HitBoxCreator.exe
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\bin\x86\Debug\HitBoxCreator.pdb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\obj\x86\Debug\HitBoxCreator.exe
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\obj\x86\Debug\HitBoxCreator.pdb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\bin\x86\Debug\Content\ryu2.xnb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\bin\x86\Debug\Content\WhitePixel.xnb
+C:\Documents and Settings\cmatheron\Mes documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\bin\x86\Debug\Content\Font1.xnb
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\bin\x86\Debug\Content\ryu2.xnb
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\bin\x86\Debug\Content\WhitePixel.xnb
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\bin\x86\Debug\Content\Font1.xnb
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\bin\x86\Debug\HitBoxCreator.exe
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\bin\x86\Debug\HitBoxCreator.pdb
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\obj\x86\Debug\HitBoxCreator.exe
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\Fight\HitBoxCreator\HitBoxCreator\obj\x86\Debug\HitBoxCreator.pdb
